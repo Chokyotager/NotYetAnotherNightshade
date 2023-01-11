@@ -1,4 +1,4 @@
-name: tf
+name: nyan
 channels:
   - conda-forge
   - defaults
@@ -126,4 +126,4 @@ dependencies:
     - xgboost==1.6.2
     - zict==2.2.0
     - zipp==3.9.0
-prefix: /home/hilbert/miniconda3/envs/tf
+prefix: /home/hilbert/miniconda3/envs/nyan

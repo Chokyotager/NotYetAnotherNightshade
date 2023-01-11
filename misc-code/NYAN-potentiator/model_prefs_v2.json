@@ -1,0 +1,14 @@
+[
+
+  {"model": "2qft_vina_score.txt.tsv", "type": "regression", "weight": 2, "cutoff": -12, "offset": 0, "further-optimisation": true},
+  {"model": "Solubility_AqSolDB", "type": "regression", "weight": 1, "cutoff": 4, "offset": -8, "further-optimisation": false},
+  {"model": "CYP1A2_Veith", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]},
+  {"model": "CYP2C19_Veith", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]},
+  {"model": "CYP2C9_Veith", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]},
+  {"model": "CYP2D6_Veith", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]},
+  {"model": "CYP3A4_Veith", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]},
+  {"model": "hERG", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]},
+  {"model": "AMES", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]},
+  {"model": "ClinTox", "type": "classification", "weight": [1, 0], "cutoff": [0.6, -0.6], "offset": [0, 0], "further-optimisation": [false, false]}
+
+]

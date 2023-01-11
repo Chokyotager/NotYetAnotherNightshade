@@ -1,0 +1,10 @@
+{
+
+  "scores": "datasets/3m_512_truncated.tsv",
+
+  "truncation": 650000,
+  "node-cutoff": 1000,
+  "validation-ratio": 0,
+  "shuffle-seed": 18062022
+
+}

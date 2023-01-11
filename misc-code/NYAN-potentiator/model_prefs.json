@@ -1,0 +1,9 @@
+[
+
+  {"model": "AthenaEstimator", "type": "regression", "weight": 2},
+  {"model": "SFCTEstimator", "type": "regression", "weight": -4},
+  {"model": "Solubility_AqSolDB", "type": "regression", "weight": 0.1},
+  {"model": "HIA_Hou", "type": "classification", "label_weights": [-1, 1]},
+  {"model": "Carcinogens_Lagunin", "type": "classification", "label_weights": [1, -1]}
+
+]
