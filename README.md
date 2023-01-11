@@ -15,7 +15,7 @@ It allows for the embedding of molecules into a continuous latent space, and sub
 
 The latent space method as described can also be used to perform highly accelerated, very high throughput virtual screening for computer-aided drug discovery of up to a few billion compounds.
 
-The contents of this repository contains the code we used in training of new encoders, construction of surrogate models, and latent space potentiation as described in the manuscript. We have also included utility tools for decoding and encoding molecules, so that you can fit and train your own surrogate models.
+This repository contains the code we used in training of new encoders, construction of surrogate models, and latent space potentiation as described in the manuscript. We have also included utility tools for decoding and encoding molecules, so that you can fit and train your own surrogate models.
 
 ## Paper
 
