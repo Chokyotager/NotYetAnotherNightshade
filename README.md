@@ -20,7 +20,9 @@ This repository contains the code we used in training of new encoders, construct
 ## Paper
 
 ![Figure abstract](https://github.com/Chokyotager/NotYetAnotherNightshade/blob/main/art/abstract.png?raw=true)
-Please read the paper for more details
+Please read the paper for more details:
+
+[PAPER IS CURRENTLY IN INTERNAL EMBARGO, WE WILL UPDATE THE LINK HERE ONCE IT'S MADE PUBLIC]
 
 ## Installation
 ```sh
@@ -36,6 +38,10 @@ conda activate nyan
 There is also an explicit link file in requirements.txt for all Conda packages.
 
 ## Usage
+
+By default, the saved model `ZINC-extmodel5hk-3M` is used. This is the same model which was used throughout the manuscript to generate the figures. You should be able to reproduce the results accordingly.
+
+If you want to train your own model, look at the "training your own model" section below.
 
 ### Conversion of SMILES to latent space
 This tool converts any SMILES molecule into a continuous mathematical space of 64 dimensions.
