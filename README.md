@@ -29,10 +29,11 @@ cd NotYetAnotherNightshade
 ```
 
 ```sh
-conda create -y --name nyan python=3.9
+conda env create -f environment.yml
 conda activate nyan
-conda install -y --file requirements.txt
 ```
+
+There is also an explicit link file in requirements.txt for all Conda packages.
 
 ## Usage
 
