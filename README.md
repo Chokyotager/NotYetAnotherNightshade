@@ -18,6 +18,8 @@ The latent space method as described can also be used to perform highly accelera
 The contents of this repository contains the code we used in training of new encoders, construction of surrogate models, and latent space potentiation as described in the manuscript. We have also included utility tools for decoding and encoding molecules, so that you can fit and train your own surrogate models.
 
 ## Paper
+
+![Figure abstract](https://github.com/Chokyotager/NotYetAnotherNightshade/blob/main/art/abstract.png?raw=true)
 Please read the paper for more details
 
 ## Installation
