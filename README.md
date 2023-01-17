@@ -23,6 +23,7 @@ This repository contains the code we used in training of new encoders, construct
 Please read the paper for more details:
 
 https://www.biorxiv.org/content/10.1101/2023.01.11.523575v1
+
 Preprint DOI: https://doi.org/10.1101/2023.01.11.523575
 
 ## Installation
