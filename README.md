@@ -22,7 +22,8 @@ This repository contains the code we used in training of new encoders, construct
 ![Figure abstract](https://github.com/Chokyotager/NotYetAnotherNightshade/blob/main/art/abstract.png?raw=true)
 Please read the paper for more details:
 
-[PAPER IS CURRENTLY IN INTERNAL EMBARGO, WE WILL UPDATE THE LINK HERE ONCE IT'S MADE PUBLIC]
+https://www.biorxiv.org/content/10.1101/2023.01.11.523575v1
+Preprint DOI: https://doi.org/10.1101/2023.01.11.523575
 
 ## Installation
 ```sh
