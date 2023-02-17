@@ -41,6 +41,8 @@ There is also an explicit link file in requirements.txt for all Conda packages.
 
 NYAN has been tested on two separate Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64) systems. It theoretically should work for any environment so long as all package requirements are fulfilled.
 
+Installation should take under ten minutes in most cases.
+
 ## Usage
 
 By default, the saved model `ZINC-extmodel5hk-3M` is used. This is the same model which was used throughout the manuscript to generate the figures. You should be able to reproduce the results accordingly.
