@@ -37,6 +37,8 @@ conda activate nyan
 
 There is also an explicit link file in requirements.txt for all Conda packages.
 
+NYAN has been tested on two separate Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64) systems. It theoretically should work for any environment so long as all package requirements are fulfilled.
+
 ## Usage
 
 By default, the saved model `ZINC-extmodel5hk-3M` is used. This is the same model which was used throughout the manuscript to generate the figures. You should be able to reproduce the results accordingly.
@@ -54,6 +56,8 @@ The output will be tab-delimited. You can then use this latent space to train su
 
 You can look into datasets/example.smi for an example input file.
 
+The runtime per molecule should not exceed 10 seconds after program initialisation. However, faster GPUs (such as the Nvidia RTX 3090®) that we tested this on can process up to 500 molecules per second.
+
 ### Conversion of latent space into molecular fingerprints
 This tool does the opposite and converts a 64-dimensional latent space into molecular fingerprints and Mordred descriptors.
 
@@ -64,6 +68,8 @@ The first column of the input latent TSV is treated as an ID. Subsequent columns
 The output will be tab-delimited. You can use this to infer molecular properties or match against a known fingerprint database.
 
 You can look into datasets/example_latents.tsv for an example input file.
+
+The runtime per molecule should not exceed 10 seconds after program initialisation.
 
 ### Training your own encoder
 If you want to train your own model, please edit `config.json`.
@@ -82,6 +88,11 @@ Our future direction is to make this tool as user-friendly as possible, and to r
 
 ## Maintenance
 The current project is maintained by Hilbert Lam and Robbe Pincket. Correspondence can be found in the manuscript. You can also contact Hilbert / Robbe via email there or (informally) on Discord, using the handles ChocoParrot#8925, Kroppeb#2845 respectively (we're chill people).
+
+## Reproduction of results in the paper
+Because we used a large variety of datasets (each with different licenses), we are unable to clone these datasets into this repository. You can reproduce the results we obtained by downloading the respective datasets, and converting them into latent vectors using NYAN.
+
+The latent spaces can then be trained and evaluated accordingly using methods from SKLearn or any other applicable machine learning library.
 
 ## License
 License details can be found in the LICENSE file.
