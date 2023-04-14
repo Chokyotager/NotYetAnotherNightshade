@@ -9,7 +9,7 @@
 </div>
 
 ## About
-**NotYetAnotherNightshade** (NYAN) is a graph variational encoder as described in the manuscript "Variational graph encoders: a surprisingly effective generalist algorithm for holistic computer-aided drug design".
+**NotYetAnotherNightshade** (NYAN) is a graph variational encoder as described in the manuscript "Application of variational graph encoders as an effective generalist algorithm in holistic computer-aided drug design".
 
 It allows for the embedding of molecules into a continuous latent space, and subsequent surrogate model training for molecular property prediction not limited to drug design and other chemistry applications.
 
@@ -42,6 +42,11 @@ There is also an explicit link file in requirements.txt for all Conda packages.
 NYAN has been tested on two separate Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-58-generic x86_64) systems. It theoretically should work for any environment so long as all package requirements are fulfilled.
 
 Installation should take under ten minutes in most cases.
+
+## Practical demonstration!
+There is an IPython Notebook that you can open using Jupyter and/or other notebooks (not tested) named `NYAN_demo.ipynb`. It contains steps on how to download the data, train it, and then potentiate molecules.
+
+Thank you very much to the (currently) anonymous reviewer for suggesting this!
 
 ## Usage
 
