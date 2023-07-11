@@ -22,7 +22,11 @@ This repository contains the code we used in training of new encoders, construct
 ![Figure abstract](https://github.com/Chokyotager/NotYetAnotherNightshade/blob/main/art/abstract.png?raw=true)
 Please read the paper for more details:
 
-https://www.biorxiv.org/content/10.1101/2023.01.11.523575v1
+Publication: https://www.nature.com/articles/s42256-023-00683-9
+
+Publication DOI: https://doi.org/10.1038/s42256-023-00683-9
+
+Preprint: https://www.biorxiv.org/content/10.1101/2023.01.11.523575v1
 
 Preprint DOI: https://doi.org/10.1101/2023.01.11.523575
 
@@ -105,3 +109,19 @@ The latent spaces can then be trained and evaluated accordingly using methods fr
 
 ## License
 License details can be found in the LICENSE file.
+
+## Citation
+```
+@article{lam_application_2023,
+	title = {Application of variational graph encoders as an effective generalist algorithm in computer-aided drug design},
+	issn = {2522-5839},
+	url = {https://www.nature.com/articles/s42256-023-00683-9},
+	doi = {10.1038/s42256-023-00683-9},
+	language = {en},
+	urldate = {2023-07-11},
+	journal = {Nature Machine Intelligence},
+	author = {Lam, Hilbert Yuen In and Pincket, Robbe and Han, Hao and Ong, Xing Er and Wang, Zechen and Hinks, Jamie and Wei, Yanjie and Li, Weifeng and Zheng, Liangzhen and Mu, Yuguang},
+	month = jul,
+	year = {2023},
+}
+```
